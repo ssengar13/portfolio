@@ -34,4 +34,3 @@ Explore my projects in the portfolio section. Each project has its own page with
 
 If you have any questions, inquiries, or would like to collaborate, feel free to reach out to me. You can find my contact information in the contact section.
 
-Feel free to clone this repository and explore the website locally.
