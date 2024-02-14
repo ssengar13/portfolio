@@ -20,7 +20,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404;
+  background: #040404 url("../img/bg.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -104,24 +104,6 @@ h6 {
   margin: 0;
 }
 
-#header .cv-links a{
-font-size: 16px;
-display: flex;
-justify-content: center;
-align-items: center;
-background: rgba(255, 255, 255, 0.1);
-color: #fff;
-line-height: 1;
-margin-right: 8px;
-padding: 20px;
-width:200px;
-height:70px;
-}
-
-#header .cv-links a:hover {
-  background: #18d26e;
-}
-
 #header .social-links {
   margin-top: 40px;
   display: flex;
@@ -177,7 +159,6 @@ height:70px;
 }
 
 #header.header-top .social-links,
-#header.header-top .cv-links,
 #header.header-top h2 {
   display: none;
 }

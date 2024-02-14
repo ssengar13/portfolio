@@ -19,20 +19,6 @@
       return document.querySelector(el)
     }
   }
-  
-  const typedOutput = new Typed('#typed-output', {
-    strings: ['Web Developer', 'Software Engineer', 'Designer', 'Freelancer'],
-    typeSpeed: 50,  // Adjust the typing speed if needed
-    backSpeed: 50,  // Adjust the backspacing speed if needed
-    backDelay: 1000, // Delay before starting to backspace
-    startDelay: 500, // Delay before starting to type
-    loop: true,     // Loop the animation
-    showCursor: false, // Hide the cursor
-    fadeOut: true,  // Fade out the last word before typing the next
-    fadeOutClass: 'typed-fade-out',
-    fadeOutDelay: 500 // Delay before fading out
-});
-
 
   /**
    * Easy event listener function
@@ -265,3 +251,13 @@
   new PureCounter();
 
 })()
+document.addEventListener('DOMContentLoaded', function() {
+  var typed = new Typed('#typed-output', {
+    strings: ["Web Developer", "Software Engineer", "Full Stack Developer", "UI Designer"],
+    typeSpeed: 50, // typing speed in milliseconds
+    backSpeed: 30, // backspacing speed in milliseconds
+    startDelay: 500, // delay before starting to type
+    backDelay: 1000, // delay before starting to backspace
+    loop: true, // loop the animation
+  });
+});

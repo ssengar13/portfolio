@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/66879.jpg" rel="icon">
-  <link href="assets/img/66879.jpg" rel="apple-touch-icon">
+  <link href="assets/img/fav.png" rel="icon">
+  <link href="assets/img/fav.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -25,6 +25,7 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -47,7 +48,7 @@
       <h1><a href="index.html">Sonal Sengar</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-      <h2>I'm&nbsp;<span id="typed-output"></span></h2>
+      <h2>I'm a&nbsp;<span id="typed-output"></span></h2>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -56,21 +57,21 @@
           <li><a class="nav-link" href="#resume">Resume</a></li>
           <li><a class="nav-link" href="#services">Services</a></li>
           <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link" href="#contact">Contact</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar --><br><br>
 
       <div class="cv-links">
-        <a href="assets/sonal.pdf" target="_blank" class="profile"><i class="fa fa-file fa-lg" aria-hidden="true"
+        <a href="assets/sonal.pdf" target="_blank" class="profile"><i class="fa fa-file fa-md" aria-hidden="true"
             style="color: #ffbb2c;"> &nbsp;</i>DOWNLOAD CV</a>
       </div>
 
       <div class="social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="github"><i class="bi bi-github"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="website"><i class="bi bi-globe"></i></a>
+        <a href="https://github.com/ssengar13" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://www.behance.net/sonalsengar" class="behance"><i class="bi bi-behance"></i></a>
+        <a href="https://www.linkedin.com/in/sonal-sengar-b2b32b156/" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
 
     </div>
@@ -289,6 +290,14 @@
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
+            <i style="color: #11dbcf;">
+            <img src="assets/img/skills/canva.png" alt="img-fluid" width="30px;">
+            </i>
+            <h3>Canva</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
             <i style="color: #b2904f;">
               <img src="assets/img/favicon.png" alt="img-fluid" width="30px;">
             </i>
@@ -481,7 +490,7 @@
           <h3 class="resume-title">Professional Experience</h3>
           <div class="resume-item">
             <h4>Junior Software Developer</h4>
-            <h5>Mar 2023 - Present</h5>
+            <h5>Feb 2023 - Present</h5>
             <p><em>Unified Voice Communication Pvt. Ltd.</em></p>
             <p>
             <ul>
@@ -582,24 +591,24 @@
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">Development</li>
-            <li data-filter=".filter-card">Freelance</li>
-            <!-- <li data-filter=".filter-web">Web</li> -->
+            <li data-filter=".filter-web">Websites</li>
+            <li data-filter=".filter-card">Development</li>
+            <li data-filter=".filter-app">Freelance</li>
           </ul>
         </div>
       </div>
 
       <div class="row portfolio-container">
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/yelpcamp.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Campground</h4>
-              <p>Full Stack</p>
+              <h4>Yelpcamp Website</h4>
+              <p>Website</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <!-- <a href="assets/img/portfolio/yelpcamp.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Yelpcamp Webiste"><i class="bx bx-plus"></i></a> -->
+                <a href="yelpcamp.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -607,13 +616,125 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/propmajestic.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
+              <h4>Real Estate Website</h4>
+              <p>Website</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <!-- <a href="assets/img/portfolio/propmajestic.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Real Estate Website"><i class="bx bx-plus"></i></a> -->
+                <a href="real_estate.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Portfolio Website</h4>
+              <p>Website</p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/portfolio.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Portfolio Website"><i class="bx bx-plus"></i></a> -->
+                <a href="portfolio.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/unified.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Unified Company Website</h4>
+              <p>Website</p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/unified.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Unified Company Website"><i class="bx bx-plus"></i></a> -->
+                <a href="unified.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/voicebott.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Voicebot Company Website</h4>
+              <p>Website</p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/voicebott.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Voicebot Company Website"><i class="bx bx-plus"></i></a> -->
+                <a href="voicebot.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/personal.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Personal Portfolio Website</h4>
+              <p>Website</p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/personal.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Personal Portfolio Website"><i class="bx bx-plus"></i></a> -->
+                <a href="personal.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/chat.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Chat Application</h4>
+              <p>Development</p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/chat.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Chat Application"><i class="bx bx-plus"></i></a> -->
+                <a href="chat_application.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/dialer.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Dialer</h4>
+              <p>Development</p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Dialer"><i class="bx bx-plus"></i></a> -->
+                <a href="dialer.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/contact.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Contact Center Solution(Agent Module)</h4>
+              <p>Development</p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/contact.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Contact Center Solution"><i class="bx bx-plus"></i></a> -->
+                <a href="contact_center_agent.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/admin.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Contact Center Solution(Admin Module)</h4>
+              <p>Development</p>
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Contact Center Solution"><i class="bx bx-plus"></i></a> -->
+                <a href="contact_center_admin.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -621,97 +742,13 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/todo.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
+              <h4>To-Do App</h4>
+              <p>Freelance</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <!-- <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="To-Do Application"><i class="bx bx-plus"></i></a> -->
+                <a href="todo.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -783,14 +820,14 @@
           <div class="info-box">
             <i class="bx bx-envelope"></i>
             <h3>Email Me</h3>
-            <p>sengarsonal13@gmail.com</p>
+            <p>sonalsengar1305@gmail.com</p>
           </div>
         </div>
         <div class="col-md-6 mt-4 d-flex align-items-stretch">
           <div class="info-box">
             <i class="bx bx-phone-call"></i>
             <h3>Call Me</h3>
-            <p>+1 5589 55488 55</p>
+            <p>+91 62635-25764</p>
           </div>
         </div>
       </div>
