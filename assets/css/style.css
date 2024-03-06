@@ -132,6 +132,13 @@ h6 {
     font-size: 36px;
   }
 
+  #header h1 a{
+    color: #fff;
+    line-height: 1;
+    display: inline-block;
+    margin-top: 70px;
+  }
+
   #header h2 {
     font-size: 20px;
     line-height: 30px;
@@ -976,6 +983,20 @@ section .container {
 .portfolio-details .portfolio-info p {
   font-size: 15px;
   padding: 15px 0 0 0;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  max-width: 736px;
+  max-height: 463px;
+}
+
+@media (max-width: 600px) {
+  .swiper-slide img {
+      max-width: 100%;
+      height: auto;
+  }
 }
 
 @media (max-width: 992px) {
