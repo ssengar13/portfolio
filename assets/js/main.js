@@ -253,7 +253,7 @@
 })()
 document.addEventListener('DOMContentLoaded', function() {
   var typed = new Typed('#typed-output', {
-    strings: ["Web Developer", "Software Engineer", "Full Stack Developer", "UI Designer"],
+    strings: ["Front End Developer", "Web Designer", "Full Stack Developer", "UI/UX Designer", "Software Engineer"],
     typeSpeed: 50, // typing speed in milliseconds
     backSpeed: 30, // backspacing speed in milliseconds
     startDelay: 500, // delay before starting to type
