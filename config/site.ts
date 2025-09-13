@@ -1,0 +1,40 @@
+export const siteConfig = {
+  name: "Sonal Sengar | Developer Portfolio",
+  authorName: "Sonal Sengar",
+  username: "sonalsengar",
+  description:
+    "Sonal Sengar's Portfolio",
+  url: "https://ssengar13.github.io/portfolio/",
+  links: {
+    twitter: "https://x.com/SonalSengar13",
+    github: "https://github.com/ssengar13",
+  },
+  ogImage: "public/assets/sonal-sengar.jpeg",
+  iconIco:
+    "public/assets/logo.png",
+  logoIcon:
+    "public/assets/logo.png",
+  keywords: [
+    "Sonal Sengar",
+    "Front End Developer",
+    "React.js Developer",
+    "Full Stack Developer",
+    "MERN Stack Developer",
+    "JavaScript Developer",
+    "Web Developer Portfolio",
+    "React Portfolio",
+    "Frontend Developer Portfolio",
+    "Full Stack Developer Portfolio",
+    "Next.js Developer",
+    "Modern Portfolio Website",
+    "Responsive Web Developer Portfolio",
+    "UI UX Developer Portfolio",
+    "Professional Developer Portfolio",
+    "React.js Projects",
+    "Frontend Development Portfolio",
+    "Full Stack Web Development",
+    "Software Developer Portfolio",
+    "Developer Resume Website",
+    "Personal Portfolio Website",
+  ],
+};
