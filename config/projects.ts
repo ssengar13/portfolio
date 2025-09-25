@@ -110,20 +110,20 @@ export const Projects: ProjectInterface[] = [
     ],
     startDate: new Date("2024-08-01"),
     endDate: new Date("2024-10-01"),
-    companyLogoImg: "/projects/amazify/amazify.png",
+    companyLogoImg: "/projects/amazify/Amazify.png",
     pagesInfoArr: [
       {
         title: "Landing Page",
         description:
           "Responsive landing page highlighting featured products and categories.",
-        imgArr: ["/projects/amazify/amazify.png",
-          "/projects/amazify/amazify1.png",
-          "/projects/amazify/amazify2.png",
-          "/projects/amazify/amazify3.png",
-          "/projects/amazify/amazify4.png",
-          "/projects/amazify/amazify5.png",
-          "/projects/amazify/amazify6.png",
-          "/projects/amazify/amazify7.png",
+        imgArr: ["/projects/amazify/Amazify.png",
+          "/projects/amazify/Amazify1.png",
+          "/projects/amazify/Amazify2.png",
+          "/projects/amazify/Amazify3.png",
+          "/projects/amazify/Amazify4.png",
+          "/projects/amazify/Amazify5.png",
+          "/projects/amazify/Amazify6.png",
+          "/projects/amazify/Amazify7.png",
         ],
       },
       {
@@ -131,8 +131,8 @@ export const Projects: ProjectInterface[] = [
         description:
           "Dedicated admin panel to manage users, products, and orders efficiently.",
         imgArr: [
-          "/projects/amazify/amazify8.png",
-          "/projects/amazify/amazify9.png",
+          "/projects/amazify/Amazify8.png",
+          "/projects/amazify/Amazify9.png",
         ],
       },
     ],
