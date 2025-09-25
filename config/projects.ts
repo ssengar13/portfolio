@@ -124,6 +124,7 @@ export const Projects: ProjectInterface[] = [
           "/projects/amazify/Amazify5.png",
           "/projects/amazify/Amazify6.png",
           "/projects/amazify/Amazify7.png",
+          "/projects/amazify/Amazify8.png",
         ],
       },
       {
