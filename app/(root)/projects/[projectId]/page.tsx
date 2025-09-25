@@ -28,13 +28,7 @@ export default function Project({ params }: ProjectPageProps) {
 
   return (
     <article className="container relative max-w-3xl py-6 lg:py-10">
-      <Link
-        href="/projects"
-        className={cn(
-          buttonVariants({ variant: "ghost" }),
-          "absolute left-[-200px] top-14 hidden xl:inline-flex"
-        )}
-      >
+      <Link href="/projects" className={cn(buttonVariants({ variant: "ghost" }), "absolute left-[-200px] top-14 hidden xl:inline-flex")} >
         <Icons.chevronLeft className="mr-2 h-4 w-4" />
         All Projects
       </Link>
@@ -66,17 +60,8 @@ export default function Project({ params }: ProjectPageProps) {
         </h1>
         <ChipContainer textArr={project.category} />
         <div className="mt-4 flex space-x-4">
-          <Link
-            href={siteConfig.links.github}
-            className="flex items-center space-x-2 text-sm"
-          >
-            <Image
-              src={profileImg}
-              alt="sonal"
-              width={42}
-              height={42}
-              className="w-[42px] h-[42px] object-cover rounded-full"
-            />
+          <Link href={siteConfig.links.github} className="flex items-center space-x-2 text-sm" >
+            <Image src={profileImg} alt="sonal" width={42} height={42} className="w-[42px] h-[42px] object-cover rounded-full" />
             <div className="flex-1 text-left leading-tight">
               <p className="font-medium">{"Sonal Sengar"}</p>
               <p className="text-[12px] text-muted-foreground">
@@ -87,14 +72,7 @@ export default function Project({ params }: ProjectPageProps) {
         </div>
       </div>
 
-      <Image
-        src={project.companyLogoImg}
-        alt={project.companyName}
-        width={720}
-        height={405}
-        className="my-8 rounded-md border bg-muted transition-colors"
-        priority
-      />
+      <Image src={project.companyLogoImg} alt={project.companyName} width={720} height={405} className="my-8 rounded-md border bg-muted transition-colors" priority />
 
       <div className="mb-7 ">
         <h2 className="inline-block font-heading text-3xl leading-tight lg:text-3xl mb-2">
@@ -108,16 +86,11 @@ export default function Project({ params }: ProjectPageProps) {
           Description
         </h2>
         {/* {<project.descriptionComponent />} */}
-        <ProjectDescription
-          paragraphs={project.descriptionDetails.paragraphs}
-          bullets={project.descriptionDetails.bullets}
-        />
+        <ProjectDescription paragraphs={project.descriptionDetails.paragraphs} bullets={project.descriptionDetails.bullets} />
       </div>
 
       <div className="mb-7 ">
-        <h2 className="inline-block font-heading text-3xl leading-tight lg:text-3xl mb-5">
-          Page Info
-        </h2>
+        <h2 className="inline-block font-heading text-3xl leading-tight lg:text-3xl mb-5"> Page Info </h2>
         {project.pagesInfoArr.map((page, ind) => (
           <div key={ind}>
             <h3 className="flex items-center font-heading text-xl leading-tight lg:text-xl mt-3">
@@ -126,15 +99,7 @@ export default function Project({ params }: ProjectPageProps) {
             <div>
               <p>{page.description}</p>
               {page.imgArr.map((img, ind) => (
-                <Image
-                  src={img}
-                  key={ind}
-                  alt={img}
-                  width={720}
-                  height={405}
-                  className="my-4 rounded-md border bg-muted transition-colors"
-                  priority
-                />
+                <Image src={img} key={ind} alt={img} width={720} height={405} className="my-4 rounded-md border bg-muted transition-colors" priority />
               ))}
             </div>
           </div>
@@ -143,10 +108,7 @@ export default function Project({ params }: ProjectPageProps) {
 
       <hr className="mt-12" />
       <div className="flex justify-center py-6 lg:py-10">
-        <Link
-          href="/projects"
-          className={cn(buttonVariants({ variant: "ghost" }))}
-        >
+        <Link href="/projects" className={cn(buttonVariants({ variant: "ghost" }))} >
           <Icons.chevronLeft className="mr-2 h-4 w-4" />
           All Projects
         </Link>
